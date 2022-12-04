@@ -13,6 +13,9 @@ a:hover {
   color: #73c5eb;
   text-decoration: none;
 }
+.team-button{
+  margin-bottom: 2px;
+}
 
 h1,
 h2,
@@ -71,6 +74,7 @@ h6 {
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -899,7 +903,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.2), rgba(40, 58, 90, 0.2)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -1879,6 +1883,7 @@ section {
   margin: auto;
 }
 
+
 .stats-counter .stats-item p {
   padding: 0;
   margin: 0;
@@ -1886,4 +1891,4 @@ section {
   font-size: 15px;
   font-weight: 500;
   color: var(--color-secondary);
-}
+} 
